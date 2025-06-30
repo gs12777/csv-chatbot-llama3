@@ -24,25 +24,14 @@ This project demonstrates how to build a CSV data assistant using **LangChain**,
 
 ollama pull llama3
 
-css
-Copy
-Edit
-
 2. Run the model in a separate terminal:
 
 ollama run llama3
-
-arduino
-Copy
-Edit
 
 3. In project folder, run:
 
 python app.py
 
-yaml
-Copy
-Edit
 
 4. Ask questions like:
 - What is the average salary?
