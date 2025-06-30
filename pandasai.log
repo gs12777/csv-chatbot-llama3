@@ -1,0 +1,82 @@
+2025-06-30 12:41:51 [INFO] Question: What is the average salary?
+2025-06-30 12:41:52 [INFO] Running PandasAI with openai LLM...
+2025-06-30 12:41:52 [INFO] Prompt ID: 518a3036-8979-49b3-87bf-7e8ba6af2842
+2025-06-30 12:41:52 [INFO] Executing Step 0: CacheLookup
+2025-06-30 12:41:52 [INFO] Executing Step 1: PromptGeneration
+2025-06-30 12:41:52 [INFO] Using prompt: <dataframe>
+dfs[0]:50x4
+Name,Age,Department,Salary
+Frank,44,Finance,53489
+Ian,43,Operations,51223
+Jane,40,HR,92242
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: What is the average salary?
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2025-06-30 12:41:52 [INFO] Executing Step 2: CodeGenerator
+2025-06-30 12:41:53 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-30 12:41:53 [INFO] Retrying request to /chat/completions in 0.495577 seconds
+2025-06-30 12:41:54 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-30 12:41:54 [INFO] Retrying request to /chat/completions in 0.885737 seconds
+2025-06-30 12:41:56 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-30 12:41:56 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-06-30 12:44:33 [INFO] Question: What is the average salary?
+2025-06-30 12:44:33 [INFO] Running PandasAI with openai LLM...
+2025-06-30 12:44:33 [INFO] Prompt ID: 3bdcab54-476e-4696-8e67-9a430e40a0bf
+2025-06-30 12:44:33 [INFO] Executing Step 0: CacheLookup
+2025-06-30 12:44:33 [INFO] Executing Step 1: PromptGeneration
+2025-06-30 12:44:33 [INFO] Using prompt: <dataframe>
+dfs[0]:50x4
+Name,Age,Department,Salary
+Frank,44,Finance,53489
+Ian,43,Operations,51223
+Jane,40,HR,92242
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: What is the average salary?
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2025-06-30 12:44:33 [INFO] Executing Step 2: CodeGenerator
+2025-06-30 12:44:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-30 12:44:34 [INFO] Retrying request to /chat/completions in 0.449456 seconds
+2025-06-30 12:44:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-30 12:44:34 [INFO] Retrying request to /chat/completions in 0.754805 seconds
+2025-06-30 12:44:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-30 12:44:36 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
